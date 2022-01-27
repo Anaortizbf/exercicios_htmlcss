@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+
+*{
+  margin:0;
+  padding:0;  
+  list-style: none;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: normal;
+  font-size: 0.96em;
+  text-decoration: none;}
+
+.container {
+    display: flex; /*1ª coisa a se definir*/
+    flex-direction: row; /*2ª* coisa a se definir*/
+    justify-content: space-between; /*3ª* space-between é uma propriedade de display flex*/
+    align-items: center;
+    text-align: center;
+    background-color: rgb(255, 254, 254);
+    border: 1px solid;
+    color: rgb(85, 85, 88);    
+}
+
+.logo {
+    padding-left:35px ;
+    align-items: center;
+
+}
+
+.menu ul {
+    display: flex;
+    align-items: center;
+}
+
+.menu ul li {
+    padding: 20px;
+}
+
+.localizacao a {
+    padding-right:35px ;
+}
+
+.localizacao img {
+    padding-right: 5px;
+}
+
+
