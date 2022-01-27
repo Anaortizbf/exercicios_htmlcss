@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(250, 249, 244);
+}
+
+.flex-container{
+    display: flex; /*1ª coisa a se definir*/
+    flex-direction: row; /*2ª* coisa a se definir*/
+    justify-content: space-evenly; /*3ª* justify content é uma propriedade de display flex*/
+}
+
+.flex-item1 {
+    background-color: blue;
+    width: 200px;
+    height: 200px;
+    
+}
+
+.flex-item2 {
+    background-color: rgb(251, 255, 0);
+    width: 200px;
+    height: 200px;
+    
+}
+
+.flex-item3 {
+    background-color: rgb(234, 0, 255);
+    width: 200px;
+    height: 200px;
+    
+}
+
+.flex-item4 {
+    background-color: rgb(255, 0, 0);
+    width: 200px;
+    height: 200px;
+    
+}
+
+/*ESTUDO DE FLEX-BOX RESUMO*/
+
+/*O QUE É: Flex box é uma ferramenta do css para posicionamento, que visa organizar os elementos de uma página HTML dentro de seus containers. Ex: podemos criar uma div container e dentro colocar 4 divs como 4 "caixas", depois posicionando-as dentro do container, como feito nesse exercício.*/
+
+/*COMO USAR: para usar flex-box você pode criar um container e itens dentro do container, como divs. No css crie uma formatação para o container e coloque 1º que esse container será display:flex;, ou seja, agora o que estiver dentro dele poderá se movimentar nos eixos. Após, escola a flex-direction, que pode ser de valor row, row-reverse, column e column reverse. Os itens ficarão alinhados, mas grudados ainda, para desgrudar, ou seja, definir o alinhamento dos ítens ao longo do eixo principal, usamos: justify-content, que tem valores de flex-start, flex-end, center, space-between, space-around e space evenly. Justify-content exerce algum controle sobre o alinhamento de ítens quando eles ultrapassam o limite da linha.*/
