@@ -1,0 +1,97 @@
+*{
+    margin:0;
+    padding:0;  
+    list-style: none;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: normal;
+    font-size: 0.96em;
+    text-decoration: none;}
+  
+  /*MENU NAVEGAÇÃO*/ 
+  
+  .container {
+    display: flex; /*1ª coisa a se definir*/
+    flex-direction: row; /*2ª* coisa a se definir*/
+    justify-content: space-around; /*3ª* é uma propriedade de display flex*/
+    align-items: center;
+    text-align: center;
+    background-color: rgb(255, 254, 254);
+    border: 1px solid;
+    color: #E5E5E5;    
+    width: 100%;
+  }
+  
+  /* MENU NAVEGAÇÃO 1ª DIV*/
+  
+ .menu{
+     margin: 18px;
+ } 
+ 
+ .menu ul {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    
+  }
+  
+  .menu ul li {
+    padding: 0 20px 0 0;
+    font-size: 0.90em;
+    
+  }
+
+  .menu ul li a {
+    color: rgb(14, 12, 12);
+  }
+  
+  .menu li :hover {
+    text-decoration-line:underline;
+      
+  }
+
+
+/*MENU NAVEGAÇÃO 2º DIV*/
+.logo {
+    width: 15%;
+    align-items: center;
+    padding-top: 5px;
+    display: flex;
+
+  
+  }
+
+  /* MENU NAVEGAÇÃO 3ª DIV*/
+  .busca {
+    background: url(search2.png) no-repeat center right;
+    padding: 4px;
+    border: none;
+    background-size: 17px;
+    width: 18px;
+    transition: all 0.3s linear;
+    -webkit-transition: all 0.5s linear; /*mesma coisa que o cod superior, mas o webkit permite que a transição funcione no Safari e Opera*/
+    
+}
+
+.busca:focus {
+    width: 126px;
+    border-bottom: solid 1px #ddd;
+    outline: none; /*tira a borda grosseira padrão*/
+}
+.pesquisa {
+    display: flex;
+    flex-direction: row;
+    margin: 20px;
+  
+}
+
+ .usuario-1{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+ }
+
+ .usuario-1 img {
+   padding-left: 20px;
+   padding-right: 6px;
+ }
+
